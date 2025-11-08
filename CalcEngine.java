@@ -82,6 +82,8 @@ public class CalcEngine
     public void clear()
     {
         displayValue = 0;
+        leftOperand =0;
+        previousOperator =' ';
     }
 
     /**
